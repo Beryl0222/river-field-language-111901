@@ -1,0 +1,87 @@
+{
+  "reaches": [
+    {
+      "id": "W1",
+      "from": "u",
+      "to": "a",
+      "shore": "left",
+      "team": "A",
+      "entry": "u"
+    },
+    {
+      "id": "W2",
+      "from": "a",
+      "to": "b",
+      "shore": "left",
+      "team": "A",
+      "entry": "a"
+    },
+    {
+      "id": "W3",
+      "from": "a",
+      "to": "c",
+      "shore": "right",
+      "team": "B",
+      "entry": "c"
+    },
+    {
+      "id": "W4",
+      "from": "c",
+      "to": "b",
+      "shore": "right",
+      "team": "B",
+      "entry": "c"
+    }
+  ],
+  "landmarks": [
+    {
+      "node": "a",
+      "aliases": [
+        "老渡口"
+      ]
+    },
+    {
+      "node": "b",
+      "aliases": [
+        "石桥",
+        "干河桥"
+      ]
+    },
+    {
+      "node": "c",
+      "aliases": [
+        "石桥",
+        "支沟桥"
+      ]
+    }
+  ],
+  "handovers": [
+    {
+      "id": "H1",
+      "team": "A",
+      "text": "过了老渡口，走到石桥才回。支沟外面只隔河望过。",
+      "sentAt": "2026-08-12T07:40:00+08:00"
+    },
+    {
+      "id": "H2",
+      "team": "A",
+      "text": "刚才写的石桥指支沟桥，过桥后没走到下一个闸。",
+      "sentAt": "2026-08-12T08:10:00+08:00"
+    }
+  ],
+  "patrol": {
+    "qualifying": [
+      "实地巡岸"
+    ],
+    "remote": "远望",
+    "blockedEntries": [
+      "b"
+    ]
+  },
+  "flowNotes": [
+    {
+      "id": "F1",
+      "text": "今晨支沟逆向。口头交接从渡口往支沟桥算顺队，下游仍按主河水文方向称呼。"
+    }
+  ]
+}

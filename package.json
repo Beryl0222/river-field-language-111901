@@ -1,0 +1,13 @@
+{
+  "name": "river-field-language",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4 <23"
+  },
+  "scripts": {
+    "inspect:data": "node scripts/inspect.mjs",
+    "test": "node --test"
+  }
+}
