@@ -8,6 +8,8 @@
   },
   "scripts": {
     "inspect:data": "node scripts/inspect.mjs",
+    "board": "node scripts/board.mjs",
+    "board:json": "node scripts/board.mjs --json",
     "test": "node --test"
   }
 }
